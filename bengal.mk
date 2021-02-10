@@ -127,6 +127,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.4-service.clearkey \
+    android.hardware.drm@1.4.vendor
+
 # Fastboot
 PRODUCT_PACKAGES += \
     fastbootd
