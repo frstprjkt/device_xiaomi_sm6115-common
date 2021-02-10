@@ -144,3 +144,8 @@ PRODUCT_PACKAGES += \
 # HIDL
 PRODUCT_PACKAGES += \
     libhwbinder.vendor
+
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml
