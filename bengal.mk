@@ -179,3 +179,7 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw \
     libstagefright_omx.vendor
+
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service-qti
