@@ -561,6 +561,9 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     BengalCarrierConfigOverlay \
+    BengalFrameworksOverlay \
+    BengalSystemUIOverlay \
+    BengalTelephonyOverlay \
     BengalWifiOverlay
 
 # PASR
