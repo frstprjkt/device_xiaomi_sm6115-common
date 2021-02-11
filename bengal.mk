@@ -578,6 +578,9 @@ PRODUCT_PACKAGES += \
     BengalTelephonyOverlay \
     BengalWifiOverlay
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 # PASR
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.power.pasr.enabled=false
