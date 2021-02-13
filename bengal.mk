@@ -149,3 +149,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
+
+# Lights
+PRODUCT_PACKAGES += \
+    lights.bengal
