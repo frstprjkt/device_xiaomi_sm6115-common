@@ -383,6 +383,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.demo.hdmirotationlock=false \
     persist.sys.sf.color_mode=9 \
     persist.sys.sf.color_saturation=1.0 \
+    persist.sys.sf.native_mode=2 \
     vendor.display.camera_noc_efficiency_factor=0.70 \
     vendor.display.comp_mask=0 \
     vendor.display.disable_excl_rect=0 \
@@ -400,6 +401,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.display.enable_optimize_refresh=1 \
     vendor.display.enable_posted_start_dyn=1 \
     vendor.display.normal_noc_efficiency_factor=0.85 \
+    vendor.display.qdcm.disable_factory_mode=1 \
+    vendor.display.qdcm.mode_combine=1 \
     vendor.display.secure_preview_buffer_format=420_sp \
     vendor.display.use_smooth_motion=1 \
     vendor.gralloc.disable_ubwc=0 \
@@ -415,7 +418,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.wcg_composition_dataspace=143261696 \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.surface_flinger.max_virtual_display_dimension=4096
-
 
 # DPM
 PRODUCT_SYSTEM_PROPERTIES += \
