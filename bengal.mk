@@ -571,6 +571,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.power.pasr.enabled=false
 
 # Perf
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.2 \
+    vendor.qti.hardware.perf@2.2.vendor
+
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.extension_library=libqti-perfd-client.so \
     ro.vendor.perf-hal.ver=2.2 \
