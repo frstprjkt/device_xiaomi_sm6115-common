@@ -227,6 +227,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.bluetooth.wipower=false
 
 PRODUCT_VENDOR_PROPERTIES += \
+    bluetooth.device.class_of_device=90,2,12 \
     bluetooth.profile.a2dp.source.enabled=true \
     bluetooth.profile.asha.central.enabled=true \
     bluetooth.profile.avrcp.target.enabled=true \
