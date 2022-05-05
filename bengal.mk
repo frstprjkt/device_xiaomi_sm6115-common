@@ -882,10 +882,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.sensors.hal_trigger_ssr=false \
     persist.vendor.sensors.support_direct_channel=false
 
-# Shutdown
-PRODUCT_VENDOR_PROPERTIES += \
-    sys.vendor.shutdown.waittime=500
-
 # SSR
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.ssr.enable_ramdumps=1
