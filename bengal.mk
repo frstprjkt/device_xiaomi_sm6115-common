@@ -529,9 +529,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
 
-PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
-
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.rmnet.data.enable=true \
     persist.data.wda.enable=true \
