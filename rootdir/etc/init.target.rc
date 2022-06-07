@@ -50,9 +50,6 @@ on init
     start vendor.qseecomd
     start keymaster-4-0
 
-on early-fs
-    start vold
-
 on fs
     start hwservicemanager
     mount_all /vendor/etc/fstab.qcom --early
@@ -60,10 +57,6 @@ on fs
     chmod 0771 /mnt/vendor/persist
     restorecon_recursive /mnt/vendor/persist
     mkdir /mnt/vendor/persist/data 0700 system system
-
-on post-fs
-    # set RLIMIT_MEMLOCK to 64MB
-    setrlimit 8 67108864 67108864
 
 on late-fs
     mount_all /vendor/etc/fstab.qcom --late
