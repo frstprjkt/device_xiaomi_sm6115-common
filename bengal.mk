@@ -226,7 +226,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.bluetooth.a2dp_offload.supported=true \
     ro.vendor.bluetooth.wipower=false
 
-PRODUCT_PRODUCT_PROPERTIES += \
+PRODUCT_VENDOR_PROPERTIES += \
     bluetooth.profile.a2dp.source.enabled=true \
     bluetooth.profile.asha.central.enabled=true \
     bluetooth.profile.avrcp.target.enabled=true \
