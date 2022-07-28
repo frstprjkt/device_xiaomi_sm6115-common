@@ -701,12 +701,16 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.se.omapi.ese.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.se.omapi.ese.xml \
     frameworks/native/data/etc/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.se.omapi.uicc.xml
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.qti.telephony.vt_cam_interface=2 \
+    persist.vendor.radio.report_codec=1 \
+    persist.vendor.radio.vdp_on_ims_cap=1
+
 PRODUCT_SYSTEM_PROPERTIES += \
     DEVICE_PROVISIONED=1 \
     persist.vendor.data.mode=concurrent \
     persist.vendor.radio.atfwd.start=true \
     persist.vendor.radio.redir_party_num=1 \
-    persist.vendor.radio.report_codec=1 \
     ril.subscription.types=NV,RUIM \
     rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
     ro.telephony.default_network=33,33 \
