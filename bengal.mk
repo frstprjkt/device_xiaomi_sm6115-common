@@ -796,6 +796,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.timed.enable=true
 
+# Thermal
+PRODUCT_VENDOR_PROPERTIES += \
+    vendor.sys.thermal.data.path=/data/vendor/thermal/
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.2-service-qti
