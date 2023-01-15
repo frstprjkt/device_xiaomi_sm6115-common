@@ -122,6 +122,9 @@ TARGET_USES_MKE2FS := true
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# Sensors
+USE_SENSOR_MULTI_HAL := true
+
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
