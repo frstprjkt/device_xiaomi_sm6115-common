@@ -560,7 +560,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    BengalCarrierConfigOverlay
+    BengalCarrierConfigOverlay \
+    BengalWifiOverlay
 
 # PASR
 PRODUCT_VENDOR_PROPERTIES += \
