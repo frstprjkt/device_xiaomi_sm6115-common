@@ -268,6 +268,10 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libstagefright_omx.vendor
 
+# Overlays
+PRODUCT_PACKAGES += \
+    BengalCarrierConfigOverlay
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
