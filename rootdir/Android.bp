@@ -18,12 +18,25 @@ sh_binary {
 }
 
 sh_binary {
+    name: "init.qcom.usb.sh",
+    src: "bin/init.qcom.usb.sh",
+    vendor: true,
+}
+
+sh_binary {
     name: "init.qcom.sh",
     src: "bin/init.qcom.sh",
     vendor: true,
 }
 
 // Init configuration files
+prebuilt_etc {
+    name: "init.qcom.usb.rc",
+    src: "etc/init.qcom.usb.rc",
+    vendor: true,
+    sub_dir: "init/hw",
+}
+
 prebuilt_etc {
     name: "init.qcom.rc",
     src: "etc/init.qcom.rc",
