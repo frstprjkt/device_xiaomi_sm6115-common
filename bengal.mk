@@ -815,3 +815,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
    debug.sf.enable_hwc_vds=1 \
    persist.debug.wfd.enable=1 \
    persist.sys.wfd.virtual=0
+
+# Inherit the proprietary files
+$(call inherit-product, vendor/xiaomi/sm6115-common/sm6115-common-vendor.mk)
