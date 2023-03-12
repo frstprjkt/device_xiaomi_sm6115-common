@@ -414,6 +414,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     debug.egl.hw=0 \
     debug.mdpcomp.logs=0 \
+    debug.sdm.support_writeback=0 \
     debug.sf.enable_advanced_sf_phase_offset=1 \
     debug.sf.high_fps_early_gl_phase_offset_ns=-2000000 \
     debug.sf.high_fps_early_phase_offset_ns=-5000000 \
