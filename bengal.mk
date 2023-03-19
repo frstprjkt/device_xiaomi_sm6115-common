@@ -841,7 +841,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.radio.atfwd.start=true \
     persist.vendor.radio.report_codec=1 \
     ril.subscription.types=NV,RUIM \
-    rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
     ro.telephony.default_network=22,20 \
     ro.vendor.use_data_netmgrd=true \
     telephony.lteOnCdmaDevice=1
@@ -862,6 +861,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.radio.procedure_bytes=SKIP \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
+    rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
     ro.com.android.dataroaming=true
 
 # Sensors
