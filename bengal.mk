@@ -905,6 +905,9 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 PRODUCT_SYSTEM_PROPERTIES += \
+    persist.rcs.supported=1
+
+PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.ims.disableADBLogs=1 \
     persist.vendor.ims.disableDebugLogs=1 \
     persist.vendor.ims.disableIMSLogs=1 \
