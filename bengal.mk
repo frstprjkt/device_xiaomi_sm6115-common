@@ -904,6 +904,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.vendor.ims.disableADBLogs=1 \
+    persist.vendor.ims.disableDebugLogs=1 \
+    persist.vendor.ims.disableIMSLogs=1 \
+    persist.vendor.ims.disableQXDMLogs=1
+
 PRODUCT_VENDOR_PROPERTIES += \
     ro.telephony.iwlan_operation_mode=legacy
 
