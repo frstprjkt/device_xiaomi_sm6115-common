@@ -601,6 +601,9 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.3.vendor \
     android.hardware.power-service-qti
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+
 # Public libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
