@@ -248,6 +248,18 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+PRODUCT_PACKAGES += \
+    init.qcom.early_boot.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.sh
+
+PRODUCT_PACKAGES += \
+    init.qcom.rc \
+    init.recovery.qcom.rc \
+    init.target.rc \
+    fstab.qcom \
+    ueventd.qcom.rc
+
 # RIL
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
