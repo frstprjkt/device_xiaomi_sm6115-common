@@ -1,0 +1,2 @@
+# Allow vendor_adsprpcd to read in vendor_sysfs_graphics
+r_dir_file(vendor_adsprpcd, vendor_sysfs_graphics)

@@ -1,0 +1,2 @@
+# Allow gpuservice to get prop in graphics_config_prop
+get_prop(gpuservice, graphics_config_prop)

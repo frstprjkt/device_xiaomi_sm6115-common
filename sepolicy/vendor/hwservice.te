@@ -1,0 +1,9 @@
+# Mlipay
+type hal_mlipay_hwservice, hwservice_manager_type;
+
+# NXP
+type nxpese_hwservice, hwservice_manager_type;
+type nxpnfc_hwservice, hwservice_manager_type;
+
+# VPP
+type hal_vpp_hwservice, hwservice_manager_type;

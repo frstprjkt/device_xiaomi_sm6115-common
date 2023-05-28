@@ -1,0 +1,2 @@
+# Allow hal_neuralnetworks_default to get adsprpc properties
+get_prop(vendor_hal_neuralnetworks_default, vendor_adsprpc_prop)

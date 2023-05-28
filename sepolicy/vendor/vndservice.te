@@ -1,0 +1,5 @@
+# Displayfeature
+type display_feature_control_service, vndservice_manager_type;
+
+# Fingerprint
+type fingerprint_vndservice, vndservice_manager_type;

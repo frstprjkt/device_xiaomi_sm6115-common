@@ -1,0 +1,7 @@
+# Allow hal_power_stats_default to read to vendor_sysfs_iio
+allow hal_power_stats_default vendor_sysfs_iio:dir r_dir_perms;
+allow hal_power_stats_default vendor_sysfs_iio:file r_file_perms;
+allow hal_power_stats_default vendor_sysfs_iio:lnk_file read;
+
+# Allow hal_power_stats_default to open and read to sysfs
+allow hal_power_stats_default sysfs:file { open read };

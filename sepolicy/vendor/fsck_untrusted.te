@@ -1,0 +1,2 @@
+# Allow fsck_untrusted to getattr to sysfs
+allow fsck_untrusted sysfs:file { getattr };
